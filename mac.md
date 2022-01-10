@@ -40,4 +40,5 @@ git checkout main
 If you expect conflicts, you may want to use 'git fetch' instead. git fetch updates the remote tracking branches.
 6. What is a merge conflict? How do you resolve a merge conflict? 
 ----
-If developers fail to work in separate, isolated branches, there can be overlapping changes.
+If developers fail to work in separate, isolated branches, there can be overlapping changes, for example two different line 7's.
+To resolve the conflicts, git will tell you where the conflicts are. You will have to pick through to edit and choose the code to keep. Then, you use 'git add' and 'git commit' to edit and save.
